@@ -1,41 +1,40 @@
 {
   "Actions": [
     {
-      "Icon": "action/images/actionimage", 
-      "Name": "Open Hardware Sensor", 
+      "Icon": "action/images/actionimage",
+      "Name": "Open Hardware Sensor",
       "States": [
         {
           "Image": "action/images/action"
         }
-      ], 
-      "Tooltip": "This is an example tooltip", 
+      ],
+      "Tooltip": "This is an example tooltip",
       "UUID": "org.xiphis.ohs.action"
     }
-  ], 
+  ],
   "SDKVersion": 2,
-  "Author": "Xiphis", 
-  "CodePath": "index.html", 
-  "PropertyInspectorPath": "propertyinspector/index.html", 
-  "Description": "Open Hardware Monitor Sensor", 
-  "Name": "OpenHardwareSensor", 
-  "Icon": "action/images/action", 
-  "URL": "https://github.com/atcurtis/streamdeck-ohs", 
-  "Version": "1.4.0",
+  "Author": "Xiphis",
+  "CodePath": "index.html",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Description": "Open Hardware Monitor Sensor",
+  "Name": "OpenHardwareSensor",
+  "Icon": "action/images/action",
+  "URL": "https://github.com/atcurtis/streamdeck-ohs",
+  "Version": "1.4.1",
   "ApplicationsToMonitor": {
     "windows": ["OpenHardwareMonitor.exe"]
   },
   "OS": [
     {
-        "Platform": "mac", 
-        "MinimumVersion" : "10.11"
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
     },
     {
-        "Platform": "windows", 
-        "MinimumVersion" : "10"
+      "Platform": "windows",
+      "MinimumVersion": "10"
     }
   ],
-  "Software": 
-    {
-        "MinimumVersion" : "4.1"
+  "Software": {
+    "MinimumVersion": "4.1"
   }
 }
