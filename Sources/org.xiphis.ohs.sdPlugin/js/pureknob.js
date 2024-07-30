@@ -432,7 +432,8 @@
 					'trackWidth': 0.4,
 					'valMin': 0,
 					'valMax': 100,
-					'val': 0
+					'val': 0,
+					'fontsize': 2
 				},
 
 				/*
@@ -529,7 +530,7 @@
 					const lineWidth = Math.round(trackWidth * radius);
 					const labelSize = Math.round(0.8 * lineWidth);
 					const labelSizeString = labelSize.toString();
-					const fontSize = (0.2 * smaller) * textScale;
+					const fontSize = (properties.fontsize * smaller) * textScale;
 					const fontSizeString = fontSize.toString();
 					const canvas = this._canvas;
 					const ctx = canvas.getContext('2d');
